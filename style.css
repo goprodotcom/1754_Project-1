@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+	font-weight: 100;
+  src: url("Roboto-Regular-webfont.woff");
+}
+body {
+		margin: 0;
+		padding: 0;
+	font-family: "Roboto";
+	background-color: #F0F0F0;
+	}
+	wrapper {
+		display: block;
+		margin: 0 auto;
+		width:80%;
+     max-width:1350px;
+     min-width:810px;
+	}
+body nav ul {
+	padding-top: 25px;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 25px;
+	color: white;
+}
+#logostyle {
+	float: left;
+}
+ul li input {
+	padding-top: 1%;
+	padding-right: 30%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	border-radius: 10px;
+	font-size: 18px;
+}
+.navright {
+	float: right;
+}
+
+nav {
+	height: 195px;
+	background-color: #1096F7;
+}
+#newlist {
+	font-size: 30px;
+	font-weight: 600;
+}
+.navleft {
+	float: left;
+	padding-right: 30px;
+}
+#yeller {
+	color: #F3B500;
+	font-weight: 600;
+}
+body footer {
+	background-color: #1096F7;
+	height: 80px;
+}
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	color: white;
+	font-weight: 400;
+	padding: 25px;
+	width: 21%;
+	font-size: 20px;
+	float: left;
+}
+.item {
+	color: gray;
+	font-family: "Arial";
+	width: 231px;
+	height: 438px;
+	background-color: white;
+	border: thin solid #D7D7D7;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.underline {
+	text-decoration: underline;
+}
+.item p img {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 38px;
+}
+.item p {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+.item .redtext {
+	color: #EC0808;
+	font-size: 20px;
+	font-weight: 800;
+	margin-top: 6px;
+}
+.item .floatleft {
+	float: left;
+}
+.item .ratings {
+	font-size: 20px;
+}
+.item .freeship {
+	font-size: 10px;
+	float: left;
+	margin-top: -25px;
+}
